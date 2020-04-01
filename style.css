@@ -239,7 +239,7 @@ th,td{
     }
     .myphoto{
         width: 100px;
-        height: 100px;
+        height: auto;
         outline: none;
         border-radius: 100%;
         box-shadow: 2px 2px 30px rgb(233, 93, 93);
