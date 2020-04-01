@@ -1,0 +1,417 @@
+*{
+    padding: 0;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    font-family: 'EB Garamond', serif;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+}
+.contact{
+    text-align: center;
+    line-height: 25px;
+}
+.name{
+    font-size: 25px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 10px;
+    color: rgb(122, 255, 144);
+}
+.myphoto{
+    width: 150px;
+    height: auto;
+    outline: none;
+    border-radius: 100%;
+    box-shadow: 2px 2px 30px rgb(233, 93, 93);
+    align-items: center;
+}
+.mymail{
+    color: black;
+}
+
+/* ------------------objective-------------------- */
+.container1{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: auto;
+
+}
+
+.container1 .co1{
+    box-shadow: none;
+}
+
+.container1 .co2{
+    box-shadow: none;
+}
+.objectivelogo{
+    height: 150px;
+    weight: 150px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 20px rgb(21, 220, 255);
+    
+}
+
+.head{
+    font-size: 26px;
+    color: yellow;
+}
+.objcontent{
+    padding: 10px 20px;
+    font-size: 18px;
+}
+/* -------------------------------------------- */
+.edu{
+    margin: 20px auto;
+    border:0px solid white;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 30px rgb(190, 51, 38);
+    width: 80%;
+    text-align: center;
+    margin-top: 10px;
+}
+.eduhead{
+    background-color: rgb(241, 159, 50);
+}
+th,td{
+    padding:10px
+}
+/* -----------------------------cocurricular------------------------------- */
+
+.typewriter{
+    width: 200;
+    height: 200;
+    border-radius: 100%;
+    box-shadow: 0px 0px 30px rgb(255, 251, 2);
+}
+
+/* ------------------------------ */
+.work{
+    box-shadow: 2px 2px 20px rgb(253, 47, 47);
+    width: 50%;
+    margin: 0 auto;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    
+
+}
+.worka{
+    text-decoration: none;
+    font-size: 25px;
+
+}
+.work:hover{
+    background-color: white;
+    color: black;
+    font-size: 21px;
+    font-style: bold;
+}
+
+
+
+/* ----------------Extra curricular---------------------- */
+.karate{
+    border-radius: 100%;
+    width: auto;
+    height: 250px;
+    box-shadow: 0px 0px 30px rgb(255, 115, 0);
+}
+/* ------------------------hobbies--------------------------------- */
+.containerhobbies{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.containehobbires .co1{
+    box-shadow: none;
+    text-align: left;
+}
+
+.containerhobbies .co2{
+    box-shadow: none;
+    align-self: center;
+    
+}
+.hobbies{
+    width: auto;
+    height: 200px;
+    border-radius: 100%;
+    box-shadow:0px 0px 30px  rgb(0, 221, 250);
+}
+
+
+/* ------------------------------Achivements--------- */
+.achievements{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    text-align: left;
+}
+
+.achievements .co2{
+    box-shadow: none;
+    text-align: left;
+}
+
+.achievements .co1{
+    box-shadow: none;
+    
+}
+.achieve{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    box-shadow:0px 0px 30px  rgb(108, 35, 192);
+}
+.achievements ul li{
+    list-style-type: square;
+}
+
+
+/* --------------------personal--------------------------- */
+
+.personaldetails .co2 .perd{
+    border-radius: 100%;
+    box-shadow:0px 0px 30px  rgb(255, 255, 255);
+
+}
+
+/* -----------------empty------------------- */
+.empty{
+    height: 100px;
+}
+
+/* ---------------------footer------------------- */
+.footer{
+    color: cyan;
+    display: inline;
+    text-align: center;
+}
+.emailfoot{
+    color: cyan;
+    font-size: 21px;
+}
+.emailfoot a{
+    font-size: 21px;
+    color: cyan;
+}
+.mobile{
+    color: cyan;
+}
+
+
+
+
+
+/* ----------------------------------- */
+/* ----------------------------------- */
+/* ----------------------------------- */
+/* ----------------------------------- */
+/* ----------------------------------- */
+/* ----------------------------------- */
+/* ----------------------------------- */
+/* ----------------------------------- */
+/* ----------------------------------- */
+@media only screen and (max-width:900px){
+    *{
+        padding: 0;
+        margin: 2px;
+        font-family: 'Times New Roman', Times, serif;
+        box-sizing: border-box;
+        font-family: 'EB Garamond', serif;
+        font-size: 17px;
+        background-color: black;
+        color: white;
+    }
+    .contact{
+        text-align: center;
+        line-height: 30px;
+    }
+    .name{
+        font-size: 18px;
+        text-decoration: none;
+        font-family: cursive, 'Times New Roman', Times, serif;
+        font-weight: 10px;
+    }
+    .myphoto{
+        width: 100px;
+        height: 100px;
+        outline: none;
+        border-radius: 100%;
+        box-shadow: 2px 2px 30px rgb(233, 93, 93);
+    }
+    .mymail{
+        color: black;
+    }
+    
+    /* ------------------objective-------------------- */
+    .container1{
+        display: grid;
+        grid-template-columns: 20% 80%;
+        grid-template-rows: 1fr;
+    
+    }
+    
+    .container1 .co1{
+        box-shadow: none;
+        align-self: center;
+    }
+    
+    .container1 .co2{
+        box-shadow: none;
+    }
+
+    .head{
+        font-size: 23px;
+        
+    
+    }
+    .objectivelogo{
+        height: 80px;
+        weight: 80px;
+        border-radius: 100px;
+        box-shadow: 2px 2px 20px rgb(21, 220, 255);
+        
+    }
+    .objcontent{
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+    /* --------------------educational qualification------------------------ */
+    .edu{
+        font-size: 16px ;
+        margin: 10px auto;
+        border:0px solid white;
+        border-collapse: collapse;
+        box-shadow: 2px 2px 20px rgb(146, 14, 4);
+        width: 80%;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .eduhead{
+        background-color: rgb(241, 159, 50);
+    }
+    th,td{
+        padding:5px
+    }
+    /* -----------------------------cocurricular------------------------------- */
+    
+    .typewriter{
+        width: auto;
+        height: 100px;
+        border-radius: 100%;
+        box-shadow: 0px 0px 20px rgb(255, 251, 2);
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    /* ------------------------------ */
+    .work{
+        box-shadow: 2px 2px 20px rgb(253, 47, 47);
+        width: auto;
+        margin: 0 auto;
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+        
+    
+    }
+    .worka{
+        text-decoration: none;
+        font-size: 25px;
+    
+    }
+    .work:hover{
+        background-color: white;
+        color: black;
+        font-size: 21px;
+        font-style: bold;
+    }
+    
+    
+    
+    /* ----------------Extra curricular---------------------- */
+    .karate{
+        border-radius: 100%;
+        width: auto;
+        height: 100px;
+        box-shadow: 0px 0px 20px khaki;
+        align-items: center;
+    }
+    /* ------------------------hobbies--------------------------------- */
+    .containerhobbies{
+        display: grid;
+        grid-template-columns: auto 30%;
+        grid-template-rows: 1fr;
+    }
+    
+    .containerhobbies .co1{
+        box-shadow: none;
+        margin-left: 20px;
+    }
+    
+    .containerhobbies .co2{
+        box-shadow: none;
+        align-self: center;
+        
+    }
+    .hobbies{
+        width: auto;
+        height: 100px;
+        border-radius: 100%;
+        box-shadow:0px 0px 20px  rgb(0, 221, 250);
+    }
+    
+    
+    /* ------------------------------Achivements--------- */
+    .achievements{
+        display: grid;
+        grid-template-columns: 30% auto;
+        grid-template-rows: 1fr;
+        grid-auto-flow: dense;
+        text-align: left;
+    }
+    
+    .achievements .co2{
+        box-shadow: none;
+        text-align: left;
+        align-self: center;
+    }
+    
+    .achievements .co1{
+        box-shadow: none;
+        align-self: center;
+        
+    }
+    .achieve{
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        box-shadow:0px 0px 20px  rgb(108, 35, 192);
+        align-self: center;
+    }
+    .achievements ul li{
+        list-style-type: square;
+    }
+    
+    
+    /* --------------------personal--------------------------- */
+    
+    .personaldetails .co2 .perd{
+        border-radius: 100%;
+        width: auto;
+        height: 100px;
+        box-shadow:0px 0px 5px  rgb(255, 255, 255);
+        position: absolute;
+        
+    }
+    
+    /* -----------------empty------------------- */
+    .empty{
+        height: 50px;
+    }
+
+}
