@@ -155,10 +155,13 @@ th,td{
 .achievements .co2{
     box-shadow: none;
     text-align: left;
+    align-self: center;
 }
 
 .achievements .co1{
     box-shadow: none;
+    justify-self: center;
+    align-self: center;
     
 }
 .achieve{
@@ -216,7 +219,7 @@ th,td{
 /* ----------------------------------- */
 /* ----------------------------------- */
 /* ----------------------------------- */
-@media only screen and (max-width:800px){
+@media only screen and (max-width:900px){
     *{
         padding: 0;
         margin: 2px;
@@ -224,25 +227,31 @@ th,td{
         box-sizing: border-box;
         font-family: 'EB Garamond', serif;
         font-size: 17px;
-        color: white;
-        background-color: black;
+        /* color: white; */
+        background-color:black;
+       
+  
+    }
+
+    body, html{
+        box-shadow: 0px 0px 100px rgb(255, 242, 242);
     }
     .contact{
         text-align: center;
         line-height: 30px;
     }
     .name{
-        font-size: 18px;
+        font-size: 21px;
         text-decoration: none;
-        font-family: cursive, 'Times New Roman', Times, serif;
+        font-family: 'Times New Roman', Times, serif;
         font-weight: 10px;
     }
     .myphoto{
         width: 100px;
-        height: auto;
+        height: 100px;
         outline: none;
         border-radius: 100%;
-        box-shadow: 2px 2px 30px rgb(233, 93, 93);
+        box-shadow: 0px 0px 20px rgb(10, 0, 0);
     }
     .mymail{
         color: black;
@@ -266,11 +275,10 @@ th,td{
     }
 
     .head{
-        font-size: 23px;
-text
-        
+        font-size: 23px;        
     
     }
+    
     .objectivelogo{
         height: 80px;
         weight: 80px;
@@ -286,9 +294,9 @@ text
     .edu{
         font-size: 16px ;
         margin: 10px auto;
-        border:0px solid white;
+        border:2px solid white;
         border-collapse: collapse;
-        box-shadow: 2px 2px 20px rgb(146, 14, 4);
+        box-shadow: none;
         width: 80%;
         text-align: center;
         margin-top: 10px;
@@ -299,25 +307,22 @@ text
     th,td{
         padding:5px
     }
-
-.inst{
-font-size:15px;
-
-}
-
+    .inst{
+        font-size: 15px;
+    }
     /* -----------------------------cocurricular------------------------------- */
     
     .typewriter{
         width: auto;
         height: 100px;
         border-radius: 100%;
-        box-shadow: 0px 0px 20px rgb(255, 251, 2);
+        box-shadow: none;
         margin-top: auto;
         margin-bottom: auto;
     }
     /* ------------------------------ */
     .work{
-        box-shadow: 2px 2px 20px rgb(253, 47, 47);
+        box-shadow: 0px 0px  100px rgb(253, 47, 47);
         width: auto;
         margin: 0 auto;
         height: 60px;
@@ -343,9 +348,9 @@ font-size:15px;
     /* ----------------Extra curricular---------------------- */
     .karate{
         border-radius: 100%;
-        width: auto;
-        height: 100px;
-        box-shadow: 0px 0px 20px khaki;
+        width: 100px;
+        height: auto;
+        box-shadow: none;
         align-items: center;
     }
     /* ------------------------hobbies--------------------------------- */
@@ -391,13 +396,14 @@ font-size:15px;
     .achievements .co1{
         box-shadow: none;
         align-self: center;
+        justify-self: center;
         
     }
     .achieve{
         width: 100px;
         height: 100px;
         border-radius: 100%;
-        box-shadow:0px 0px 20px  rgb(108, 35, 192);
+        box-shadow:0px 0px 100px  rgb(108, 35, 192);
         align-self: center;
     }
     .achievements ul li{
@@ -411,8 +417,8 @@ font-size:15px;
         border-radius: 100%;
         width: auto;
         height: 100px;
-        box-shadow:0px 0px 5px  rgb(255, 255, 255);
-        position: absolute;
+        box-shadow:none;
+        
         
     }
     
@@ -421,4 +427,13 @@ font-size:15px;
         height: 50px;
     }
 
-}
+    .head{
+        font-size: 26px;
+        color: rgb(255, 145, 0);
+    }
+
+
+
+
+
+
