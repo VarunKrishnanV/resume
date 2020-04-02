@@ -233,9 +233,7 @@ th,td{
   
     }
 
-    body, html{
-        box-shadow: 0px 0px 100px rgb(255, 242, 242);
-    }
+ 
     .contact{
         text-align: center;
         line-height: 30px;
@@ -280,8 +278,8 @@ th,td{
     }
     
     .objectivelogo{
-        height: 80px;
-        weight: 80px;
+        height: auto;
+        weight: 70px;
         border-radius: 100px;
         box-shadow: 2px 2px 20px rgb(21, 220, 255);
         
