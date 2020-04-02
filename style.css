@@ -224,8 +224,8 @@ th,td{
         box-sizing: border-box;
         font-family: 'EB Garamond', serif;
         font-size: 17px;
-        color: black;
-        background-color: white;
+        color: white;
+        background-color: black;
     }
     .contact{
         text-align: center;
@@ -267,6 +267,7 @@ th,td{
 
     .head{
         font-size: 23px;
+text
         
     
     }
